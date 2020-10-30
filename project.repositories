@@ -3,6 +3,14 @@
     <repository>
       <include>true</include>
       <metadata>
+        <id>jbpm-repo</id>
+        <url>http://192.168.101.8:8081/repository/jbpm-repo/</url>
+        <source>DISTRIBUTION_MANAGEMENT</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
         <id>local</id>
         <url>/home/topsac/JBPM/PruebaJBPM_NBCH/repositorio</url>
         <source>LOCAL</source>

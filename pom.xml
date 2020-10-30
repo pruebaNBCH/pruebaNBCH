@@ -56,4 +56,11 @@
       </plugin>
     </plugins>
   </build>
+  <distributionManagement>
+	<repository>
+		<id>jbpm-repo</id>
+		<url>http://192.168.101.8:8081/repository/jbpm-repo/</url>
+		<layout>default</layout>
+	</repository>
+</distributionManagement>
 </project>
